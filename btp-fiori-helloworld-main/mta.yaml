@@ -1,0 +1,10 @@
+ID: btp-fiori-helloworld
+_schema-version: "3.3"
+version: 0.0.1
+modules:
+  - name: btp-fiori-helloworld
+    type: html5
+    path: .
+    build-parameters:
+      builder: grunt
+      supported-platforms: [cloudfoundry]
