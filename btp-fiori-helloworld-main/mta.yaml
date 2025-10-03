@@ -4,7 +4,8 @@ version: 0.0.1
 modules:
   - name: btp-fiori-helloworld
     type: html5
-    path: btp-fiori-helloworld
+    path: .
     build-parameters:
-      builder: grunt
-      supported-platforms: [cloudfoundry]
+      no-node-install: true
+
+
